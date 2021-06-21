@@ -5,32 +5,27 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: ''
-  label: All
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/en/about
+  path: content/*/about
   label: About
   create: all
   match: "**/*"
 - type: directory
-  path: content/en/blog
+  path: content/*/blog
   label: Blog
   create: all
   match: "**/*"
 - type: directory
-  path: content/en/community
+  path: content/*/community
   label: Community
   create: all
   match: "**/*"
 - type: directory
-  path: content/en/docs
+  path: content/*/docs
   label: Docs
   create: all
   match: "**/*"
 - type: directory
-  path: content/en
+  path: content/*
   label: Pages
   create: all
   match: "*"
